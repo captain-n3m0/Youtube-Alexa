@@ -23,7 +23,7 @@ To deploy the Alexa skill that plays YouTube videos, you'll need to follow these
 
 Note that there may be additional steps or configuration options required depending on the specifics of your skill and deployment environment. These steps provide a general overview of the process.
 
-## Badges
+## LICENSE
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
