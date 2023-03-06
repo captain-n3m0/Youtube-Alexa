@@ -21,7 +21,7 @@ const PlayVideoIntentHandler = {
     },
     handle(handlerInput) {
         const videoQuery = handlerInput.requestEnvelope.request.intent.slots.video.value;
-        const apiUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(videoQuery)}&type=video&videoDefinition=high&maxResults=1&key=AIzaSyB5t7oebexArefXyOKZHiaEWOVdZShQGeE`;
+        const apiUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(videoQuery)}&type=video&videoDefinition=high&maxResults=1&key=YOUR_API_KEY`;
 
         return new Promise((resolve, reject) => {
             request(apiUrl, (error, response, body) => {
